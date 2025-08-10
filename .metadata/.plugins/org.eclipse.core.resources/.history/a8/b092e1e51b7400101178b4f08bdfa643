@@ -1,0 +1,7 @@
+package com.Embeddable;
+
+public class Players {
+	private int pid;
+	private String pname;
+	private Games games;
+}

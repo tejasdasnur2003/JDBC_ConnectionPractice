@@ -1,0 +1,8 @@
+package com.Hib1;
+
+public class Student {
+
+	private int sid;
+	private String sname;
+	private double smarks;
+}

@@ -1,0 +1,11 @@
+package com.Configuration;
+
+import java.sql.Connection;
+
+public class ShopKeeper_Configuration {
+	public static Connection getConnection()
+	{
+		Class.forName(com.mysql.cj.jdbc.Driver);
+	}
+
+}

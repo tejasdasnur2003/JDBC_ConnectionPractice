@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="https://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>User Details</title>
+</head>
+<body>
+	<h2>Your Recent Data</h2>
+    <table>
+        <tr>
+            <td><h4>User Name:</h4></td>
+            <td><h4 th:text="${userEntity.name}">[Name]</h4></td>
+        </tr>
+        <tr>
+            <td><h4>Email ID:</h4></td>
+            <td><h4 th:text="${userEntity.email}">[Email]</h4></td>
+        </tr>
+    </table>
+    <h3><a href=http://localhost:8082/data>Click Here</a> TO Get All Data</h3>
+</body>
+</html>

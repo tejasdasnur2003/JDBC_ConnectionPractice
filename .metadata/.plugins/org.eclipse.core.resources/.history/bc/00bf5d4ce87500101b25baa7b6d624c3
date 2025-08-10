@@ -1,0 +1,14 @@
+package com.App;
+
+import java.sql.SQLException;
+
+import com.DAO.ShopKeeperDao;
+
+public class App {
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		ShopKeeperDao sk=new ShopKeeperDao();
+		sk.createTable();
+		System.out.println("Database Created..");
+	}
+
+}

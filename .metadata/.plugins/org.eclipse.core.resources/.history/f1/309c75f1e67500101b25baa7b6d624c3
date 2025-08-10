@@ -1,0 +1,16 @@
+package com.DAO;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import com.Configuration.ShopKeeper_Configuration;
+
+public class ShopKeeperDao {
+	public void createTable() throws ClassNotFoundException, SQLException {
+		String query="CREATE TABLE shopInfo(shopId int,shopName varchar(20),Product varchar(20),Weight double,Price long);";
+		Connection conn=ShopKeeper_Configuration.getConnection();
+		Statement stm=conn.createStatement();
+	}
+
+}

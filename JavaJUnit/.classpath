@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-22">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="E:/Java/Eclipse_Files/JUnit_Jar_Files/annotations-13.0.jar"/>
+	<classpathentry kind="lib" path="E:/Java/Eclipse_Files/JUnit_Jar_Files/apiguardian-api-1.1.2.jar"/>
+	<classpathentry kind="lib" path="E:/Java/Eclipse_Files/JUnit_Jar_Files/core-0.8.1.jar"/>
+	<classpathentry kind="lib" path="E:/Java/Eclipse_Files/JUnit_Jar_Files/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="E:/Java/Eclipse_Files/JUnit_Jar_Files/hoplite-core-2.7.5.jar"/>
+	<classpathentry kind="lib" path="E:/Java/Eclipse_Files/JUnit_Jar_Files/hoplite-yaml-2.7.5.jar"/>
+	<classpathentry kind="lib" path="E:/Java/Eclipse_Files/JUnit_Jar_Files/javassist-3.28.0-GA.jar"/>
+	<classpathentry kind="lib" path="E:/Java/Eclipse_Files/JUnit_Jar_Files/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="E:/Java/Eclipse_Files/JUnit_Jar_Files/junit-4.13.2.jar"/>
+	<classpathentry kind="lib" path="E:/Java/Eclipse_Files/JUnit_Jar_Files/junit5-0.8.1.jar"/>
+	<classpathentry kind="lib" path="E:/Java/Eclipse_Files/JUnit_Jar_Files/junit-jupiter-api-5.11.0.jar"/>
+	<classpathentry kind="lib" path="E:/Java/Eclipse_Files/JUnit_Jar_Files/junit-jupiter-engine-5.11.0.jar"/>
+	<classpathentry kind="lib" path="E:/Java/Eclipse_Files/JUnit_Jar_Files/junit-platform-commons-1.11.0.jar"/>
+	<classpathentry kind="lib" path="E:/Java/Eclipse_Files/JUnit_Jar_Files/junit-platform-engine-1.11.0.jar"/>
+	<classpathentry kind="lib" path="E:/Java/Eclipse_Files/JUnit_Jar_Files/junit-platform-launcher-1.11.0.jar"/>
+	<classpathentry kind="lib" path="E:/Java/Eclipse_Files/JUnit_Jar_Files/kotlin-reflect-2.0.20.jar"/>
+	<classpathentry kind="lib" path="E:/Java/Eclipse_Files/JUnit_Jar_Files/kotlin-stdlib-2.0.20.jar"/>
+	<classpathentry kind="lib" path="E:/Java/Eclipse_Files/JUnit_Jar_Files/kotlin-stdlib-jdk7-1.6.21.jar"/>
+	<classpathentry kind="lib" path="E:/Java/Eclipse_Files/JUnit_Jar_Files/kotlin-stdlib-jdk8-1.6.21.jar"/>
+	<classpathentry kind="lib" path="E:/Java/Eclipse_Files/JUnit_Jar_Files/opentest4j-1.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Java/Eclipse_Files/JUnit_Jar_Files/reflections-0.10.2.jar"/>
+	<classpathentry kind="lib" path="E:/Java/Eclipse_Files/JUnit_Jar_Files/slf4j-api-2.0.16.jar"/>
+	<classpathentry kind="lib" path="E:/Java/Eclipse_Files/JUnit_Jar_Files/snakeyaml-2.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,33 @@
+package com.Anntations;
+
+import java.sql.Date;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class App {
+	public static void main(String[] args) {
+		Configuration cfg=new Configuration();
+		cfg.configure();
+		SessionFactory sf=cfg.buildSessionFactory();
+		Session session=sf.openSession();
+		Transaction tx=session.beginTransaction();
+		Employee emp=new Employee();
+		Date d=new Date(2003,8,07);
+		emp.setEid(100);
+		emp.setEname("Tejas");
+		emp.setEcontact(79486155);
+		emp.setEsal(54949);
+		emp.setX(10);
+		emp.setDob(d);
+		session.save(emp);
+		
+		tx.commit();
+		session.clear();
+		sf.close();
+		sf.close();
+	}
+
+}

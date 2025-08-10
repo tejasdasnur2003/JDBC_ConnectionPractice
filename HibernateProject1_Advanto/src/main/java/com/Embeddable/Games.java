@@ -1,0 +1,33 @@
+package com.Embeddable;
+
+import javax.persistence.Embeddable;
+
+@Embeddable
+public class Games {
+	private String gname;
+
+	public Games() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Games(String gname) {
+		super();
+		this.gname = gname;
+	}
+
+	public String getGname() {
+		return gname;
+	}
+
+	public void setGname(String gname) {
+		this.gname = gname;
+	}
+
+	@Override
+	public String toString() {
+		return "Games [gname=" + gname + "]";
+	}
+	
+
+}

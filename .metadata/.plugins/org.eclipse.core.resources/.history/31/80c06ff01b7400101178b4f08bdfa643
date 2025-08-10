@@ -1,0 +1,39 @@
+package com.Embeddable;
+
+public class Players {
+	private int pid;
+	private String pname;
+	private Games games;
+	public Players(int pid, String pname, Games games) {
+		super();
+		this.pid = pid;
+		this.pname = pname;
+		this.games = games;
+	}
+	public Players() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public int getPid() {
+		return pid;
+	}
+	public void setPid(int pid) {
+		this.pid = pid;
+	}
+	public String getPname() {
+		return pname;
+	}
+	public void setPname(String pname) {
+		this.pname = pname;
+	}
+	public Games getGames() {
+		return games;
+	}
+	public void setGames(Games games) {
+		this.games = games;
+	}
+	@Override
+	public String toString() {
+		return "Players [pid=" + pid + ", pname=" + pname + ", games=" + games + "]";
+	}
+}

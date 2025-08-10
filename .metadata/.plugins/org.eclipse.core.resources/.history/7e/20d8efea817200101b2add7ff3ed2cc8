@@ -1,0 +1,32 @@
+package com.Hib1;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Project Starting..." );
+        System.out.println("Step -1..");
+        Configuration cfg=new Configuration();
+        
+        System.out.println("Step -2..");
+        cfg.configure();
+        
+        System.out.println("step -3..");
+        SessionFactory sf=cfg.buildSessionFactory();
+        
+        System.out.println("Step -4..");
+        Session session=sf.openSession();
+        
+        System.out.println("Step -5..");
+        session.close();
+        sf.close();
+    }
+}

@@ -1,0 +1,10 @@
+package com.App;
+
+import com.DAO.ShopKeeperDao;
+
+public class App {
+	public static void main(String[] args) {
+		ShopKeeperDao sk=new ShopkeeperDao();
+	}
+
+}

@@ -1,0 +1,27 @@
+package com.App;
+
+import java.sql.SQLException;
+import java.util.Scanner;
+
+import com.DAO.ShopKeeperDao;
+
+public class App {
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		ShopKeeperDao sk=new ShopKeeperDao();
+		/*sk.createTable();
+		System.out.println("Database Created..");*/
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the Id: ");
+		int id=sc.nextInt();
+		System.out.println("Enter ShopName: ");
+		String ShopName=sc.next();
+		System.out.println("Enter Product Name: ");
+		String Product=sc.next();
+		System.out.println("Enter Wieght in KG : ");
+		Double Weight=sc.nextDouble();
+		System.out.println("Enter the Price: ");
+		Long Price=sc.nextLong();
+		
+	}
+
+}

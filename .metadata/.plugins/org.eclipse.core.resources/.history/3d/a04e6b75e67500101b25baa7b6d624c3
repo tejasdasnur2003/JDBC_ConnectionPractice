@@ -1,0 +1,8 @@
+package com.DAO;
+
+public class ShopKeeperDao {
+	public void createTable() {
+		String query="CREATE TABLE shopInfo(shopId int,shopName varchar(20),Product varchar(20),Weight double,Price long);";
+	}
+
+}
